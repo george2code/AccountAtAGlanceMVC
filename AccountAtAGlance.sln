@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountAtAGlance", "AccountAtAGlance\AccountAtAGlance.csproj", "{FEF0A294-C827-43F6-86BE-CF5EBD79B110}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountAtAGlance.Model", "AccountAtAGlance.Model\AccountAtAGlance.Model.csproj", "{22DF1B1C-57A3-47B4-A70F-8CDC019123D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountAtAGlance.Repository", "AccountAtAGlance.Repository\AccountAtAGlance.Repository.csproj", "{6B20F708-554B-4A09-B5CB-B60D1C39279F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +17,14 @@ Global
 		{FEF0A294-C827-43F6-86BE-CF5EBD79B110}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEF0A294-C827-43F6-86BE-CF5EBD79B110}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEF0A294-C827-43F6-86BE-CF5EBD79B110}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22DF1B1C-57A3-47B4-A70F-8CDC019123D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22DF1B1C-57A3-47B4-A70F-8CDC019123D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22DF1B1C-57A3-47B4-A70F-8CDC019123D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22DF1B1C-57A3-47B4-A70F-8CDC019123D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B20F708-554B-4A09-B5CB-B60D1C39279F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B20F708-554B-4A09-B5CB-B60D1C39279F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B20F708-554B-4A09-B5CB-B60D1C39279F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B20F708-554B-4A09-B5CB-B60D1C39279F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
