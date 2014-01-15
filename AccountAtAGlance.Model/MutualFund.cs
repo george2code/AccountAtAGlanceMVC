@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AccountAtAGlance.Model
 {
-    class MutualFund : Security
+    public class MutualFund : Security
     {
         public int MorningStarRating { get; set; }
     }

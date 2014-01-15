@@ -30,9 +30,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -44,6 +50,8 @@
     <Compile Include="Customer.cs" />
     <Compile Include="DataPoint.cs" />
     <Compile Include="Exchange.cs" />
+    <Compile Include="MarketIndex.cs" />
+    <Compile Include="MarketQuotes.cs" />
     <Compile Include="MutualFund.cs" />
     <Compile Include="OperationStatus.cs" />
     <Compile Include="Order.cs" />
@@ -54,6 +62,13 @@
     <Compile Include="Stock.cs" />
     <Compile Include="TickerQuote.cs" />
     <Compile Include="WatchList.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
