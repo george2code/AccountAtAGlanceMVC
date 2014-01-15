@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AccountAtAGlance.Model
 {
@@ -15,7 +12,7 @@ namespace AccountAtAGlance.Model
         public decimal Last { get; set; }
         public decimal Shares { get; set; }
         public string Symbol { get; set; }
-        public System.DateTime RetrievalDateTime { get; set; }
+        public DateTime RetrievalDateTime { get; set; }
         public string Company { get; set; }
 
         // Additional properties, not in the DB
